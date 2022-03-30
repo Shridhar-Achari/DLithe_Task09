@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <script src="javascript/scripts.js"></script> 
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body{
+            color: white;
+            font-size: 18px;
+        }
+        legend{
+            color: maroon;
+            font-size: 25px;
+            text-shadow: 4px 4px 4px white;
+            background-color: darkgray;
+            box-shadow: 6px 6px 7px;
+            border-radius: 50px;
+            padding: 5px;
+
+        }
+        form{
+            width: 500px;
+            padding: 30px;
+        }
+        input,label{
+            width: 480px;
+            height: 28px;
+        }
+        #login{
+            float:left;
+        }
+
+    </style>
+
+</head>
+<body style="background-image: url(assets/images/wallpaper.jpg);background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
+    <form action=""method="post">
+        <fieldset id="field">
+            <legend>Registration</legend>
+            <label for="">User Name</label><br>
+            <input type="text" id="uname" name="username"placeholder="Enter your UserName"required><br>
+            <label for="">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email"required><br>
+            <label for="">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required><br>
+            <label for="">Mobile</label><br>
+            <input type="tel" id="lmob" name="mob"placeholder="Enter your Mobile Number" pattern="[0-9]{10}" required><br><br>
+            <input id="btn" type="submit" id="reg" value="Register" onclick=regdetails()>
+            <input id="btn" type="reset" value="Reset" >
+        </fieldset>
+    </form>
+    <form action=""method="post" id="login">
+        <fieldset id="field">
+            <legend>Login</legend>
+            <label for="">Email</label><br>
+            <input type="email" id="lemail" name="email"placeholder="Enter your Email"required><br>
+            <label for="">Password</label><br>
+            <input type="password" id="lpassword" name="password"placeholder="Enter your Password"required><br><br>
+            <input id="btn" type="submit" id="log" value="Login" onclick="login()">
+            <input id="btn" type="reset" value="Reset">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

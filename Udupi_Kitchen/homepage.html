@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Udupi Kitchen</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="javascript/scripts.js"></script>
+    <style>
+        p{
+            font-size: 18px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body style="background-image:url(assets/images/index.jpg); position: relative;background-attachment: fixed;background-size: cover;">
+        <img src="assets/images/logo.jpg" alt="logo">
+        <p class="udupi">UDUPI KITCHEN<br>
+        <i> We Are There For You At Any Time Anywhere</i></p>
+    <section class="container1">
+        <select name="Menu" class="menu">
+            <optgroup label="North-Indian">
+                <option value="">Chicken Dum Biryani</option>
+                <option value="">Butter Chicken</option>
+                <option value="">Aloo Samosa</option>
+                <option value="">Malai ki Kheer</option>
+            </optgroup>
+            <optgroup label="South-Indian">
+                <option value="">Biriyani</option>
+                <option value="">Bonda</option>
+                <option value="">Bisi bele bath</option>
+                <option value="">Malai ki Kheer</option>
+                <option value="">Dosa</option>
+                <option value="">Idli</option>
+            </optgroup>
+            <optgroup label="Chainese">
+                <option value="">Noodles</option>
+                <option value="">Spring Rolls</option>
+                <option value="">Fried Rice</option>
+                <option value="">Masala Puri</option>
+            </optgroup>
+        </select>
+        <a href="reg.html">Registration/Login</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact_us.html">Contact Us</a>
+       <!-- <a href="index.html" onchange="logout()">Log Out</a>-->
+        <button id="logoutbtn" type="button" onclick="logout()">Logout</button>
+    </section><br><br>
+    <div class="items">
+        <img src="https://i.ndtvimg.com/i/2015-02/spring-roll_625x350_51424323845.jpg" alt="">
+        <h2>Spring Rolls</h2><br><br><br>
+        <p>A crisp appetizer where shredded veggies are encased in thin sheets and then fried golden. Little munchies to prepare at home for a high tea menu or just a party starter, serve with a tangy dip.<br><br>
+            Rs.350
+            <button class="cartbtn" onclick="order()">Add To Cart</button>
+        </p><br>
+    </div><br>
+    <div class="items">
+        <img src="https://c.ndtvimg.com/2018-09/i9993f38_noodles_625x300_26_September_18.jpg" alt="">
+        <h2>Noodles</h2><br><br><br>
+        <p>A kid's favourite, veg hakka noodles is a great way to shove all the veggies down to your kid's plate. Just toss up all your favourite veggies like capsicum, carrot, spring onions and cabbage in a tangy mix of sauces and you'll have a clear winner at the table!<br>
+            Rs.450
+            <button class="cartbtn" onclick="order()">Add To Cart</button>
+        </p>
+        </div>
+        <br>
+        <div class="items">
+        <img src="https://c.ndtvimg.com/2020-03/f99kst28_fried-rice_625x300_04_March_20.jpg" alt="">
+        <h2>Fried Rice</h2><br><br><br>
+        <p>An excellent way to use leftover rice, veg fried rice is a delicious recipe with the goodness of veggies like carrot, cabbage, beans along with baby corn, soy sauce, chillies and garlic. Perfect lunch or dinner option.<br><br>
+        Rs.550
+        <button class="cartbtn" onclick="order()">Add To Cart</button>
+        </p>
+        </div>
+        <br>
+        <div class="items">
+        <img src="https://i.ndtvimg.com/i/2015-06/biryani_625x350_41435301708.jpg" alt="">
+        <h2>Chucken Dum Biriyani</h2><br><br><br>
+        <p>Flavourful biryani with chicken cooked in assorted spices and garnished with sliced green chillies and ginger juliennes. A quick and easy home made biryani is something you cannot escape.<br><br>
+        Rs.550
+        <button class="cartbtn" onclick="order()">Add To Cart</button>
+        </p>
+        </div>
+        <br>
+  <footer id="footer">
+        <p>UDUPI KITCHEN</p>
+        <p>ALl Rights Reserved.</p>
+        <a href="mailto:udupikitchen@gmail.com">Send Mail Here</a>
+  </footer>
+</body>
+</html>

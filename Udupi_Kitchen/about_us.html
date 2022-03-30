@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <style>
+        body{
+            background-image: url("assets/images/background1.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            object-fit:contain;
+        }
+        h1{
+            position: relative;
+            background: #c0c0aa;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            color: rgb(255, 255, 255);
+            border-radius: 50%;
+            height: 50px;
+            width: 370px;
+            top: 20px;
+            left: 250px;
+            padding: 10px;
+            text-align: center;
+            text-shadow: 4px 4px 6px black;
+            font-size: 40px;
+
+        }
+        .para{
+            position:relative;
+            box-sizing: content-box;
+            font-size: large;
+            font-family:'Times New Roman', Times, serif;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 400px;
+            width: 700px;
+            top: 20px;
+            left: 100px;
+            font-size: 22px;
+            color:rgb(255, 255, 255);
+            text-overflow: inherit;
+            text-shadow: 2px 2px 3px black;     
+        }
+        .para ::selection{
+        background-color: blue;
+        color: white;
+        }
+        .para ::first-letter{
+            font-size: 30px;
+            background-color: chartreuse;
+            color: blue;
+        }  
+    </style>
+</head>
+<body>
+    <h1>About Us</h1>
+        <ul class="para" type="none">
+            <li>Located in the heart of the city, Hotel Udupi Residency, Udupi, is a royal retreat that offers exclusive services. The well-appointed spacious rooms with all the requisite amenities ensure a relaxing stay in the City of temples and beaches. Whether it is a religious or leisure vacation, the hotel ensures a memorable experience.</li>
+            <li>Relish an array of delicacies ranging from Indian to Chinese, continental and even local cuisine served at two multi-cuisine restaurants at the hotel. The air-conditioned and non-air-conditioned conference hall is ideal for corporate as well as intimate gatherings. Other services include laundry, ample car parking, Internet connectivity, security lockers, airport transfers and more.</li>
+        </ul> 
+        <input id="btn" type="submit" value="Previous Page" onclick="window.location='homepage.html'">
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="javascript/scripts.js"></script>
+    <style>
+        pre{
+            background-image: url(assets/images/index.jpg);
+            opacity: 90%;
+            font-size:25px; color: rgb(0, 0, 0);
+            width: 600px;
+            height: 100px;
+            box-sizing: border-box; 
+            box-shadow: 10px 8px 15px rgb(3, 0, 8);
+            font-size: 22px;
+            color:rgb(255, 255, 255);
+            text-overflow: inherit;
+            text-shadow: 2px 2px 3px black;
+            
+        }
+        form{
+            position: relative;
+            width: 600px;
+            box-shadow: 10px 8px 15px rgb(3, 0, 8);
+            background-color: rgba(14, 6, 78, 0.637);
+        }
+      
+        input{
+            width: 250px;
+            height: 25px;
+        }
+        label{
+            font-size: 20px;
+            color: aliceblue;
+        }
+        a{
+            background-color: rgb(12, 5, 80);
+            width: 300px;
+            height: 27px;
+            border-style:hidden;
+            border-color: black;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 23px;
+            padding: 10px;
+            color: white;
+        }
+        a:hover{
+            background-color: blue;
+        }
+        iframe {
+            position: absolute;
+            left: 320px;
+            top: 40px;
+        }
+        h1{
+        position: relative;
+        background: #aabfc0;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: rgb(32, 28, 28);
+        border-radius: 50%;
+        height: 50px;
+        width: 370px;
+        top: 20px;
+        left: 100px;
+        padding: 10px;
+        text-align: center;
+        text-shadow: 4px 4px 6px black;
+        font-size: 40px;
+
+    }
+        
+
+    </style>
+
+</head>
+<body style="background-image: url(assets/images/back1.jpg);background-size: cover;">
+    <h1>Contact Us</h1>
+    <pre>
+    Hotel Udupi Kitcken
+    NH-66, near Karavali Bypass,
+    Udupi, Karnataka 576103
+    </pre>
+        <form action="">
+            <fieldset><br>
+            <label for="">Name</label><br>
+            <input type="Name" id=cname name="name" placeholder="Enter your name" id="name" required><br><br>
+            <label for="">Email</label><br>
+            <input type="Email" id=cemail name="Email" placeholder="Enter your email" id="email" required><br><br>
+            <label for="">Message</label><br>
+            <textarea name="meaasge" id="msg" cols="30" rows="5" placeholder="Enter youe message here" id="message" required></textarea><br><br>
+            <input id="btn" type="submit" id="send" value="SEND" onclick="message()"><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.1151185533945!2d74.74440951344029!3d13.343114490612907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcbb653c769abf%3A0x7d41b63440b70df0!2sKediyoor%20Hotels%20pvt%20ltd!5e0!3m2!1sen!2sin!4v1648516913044!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+        </fieldset>
+    </form> <br>
+    <input id="btn" type="button" value="Previous Page" onclick="window.location='homepage.html'">
+</body>
+</html>
